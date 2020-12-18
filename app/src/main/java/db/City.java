@@ -1,6 +1,8 @@
 package db;
 
-public class City{
+import org.litepal.crud.LitePalSupport;
+
+public class City extends LitePalSupport {
     private int id;
     private String cityName;
     private int cityCode;
@@ -17,10 +19,10 @@ public class City{
     public void setCityName(String CityName){
         this.cityName=CityName;
     }
-    public int getProvinceCode(){
+    public int getCityCode(){
         return cityCode;
     }
-    public void setProvinceCode(int CityCode){
+    public void setCityCode(int CityCode){
         this.cityCode=CityCode;
     }
     public int getProvinceId(){
