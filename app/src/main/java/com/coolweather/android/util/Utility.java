@@ -1,4 +1,4 @@
-package util;
+package com.coolweather.android.util;
 
 import android.text.TextUtils;
 
@@ -6,9 +6,9 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import db.City;
-import db.County;
-import db.Province;
+import com.coolweather.android.db.City;
+import com.coolweather.android.db.County;
+import com.coolweather.android.db.Province;
 
 public class Utility {
     public static boolean handleProvinceResponse(String response){
